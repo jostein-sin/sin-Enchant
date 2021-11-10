@@ -1,0 +1,5 @@
+# Choose the file format to load data from
+format: "xls"
+# Data location
+data_dir: "/media/windowsC/SIN_Desktop/ENCHANT/ECHOES/data"
+
