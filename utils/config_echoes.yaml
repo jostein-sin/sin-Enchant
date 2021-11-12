@@ -11,67 +11,67 @@ surveys:
             'ROWS': 10
             'COLS': 10
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
-    #'int_survey':
-    #    'histogram':
-    #        'enable': true
-    #        'ROWS': 23
-    #        'COLS': 19
-    #        'SIZE': [8*8, 6*8]
-    #    'conditional': 'no_nan'
-    #'psych_experiment_Spain':
-    #        'histogram':
-    #        'enable': true
-    #        'ROWS': 5
-    #        'COLS': 11
-    #        'SIZE': [8*8, 6*8]
-    #    'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
+    'int_survey':
+        'histogram':
+            'enable': true
+            'ROWS': 23
+            'COLS': 19
+            'SIZE': [8*10, 6*10]
+        'conditional': 'substitute_nan'
+    'psych_experiment_Spain':
+        'histogram':
+            'enable': true
+            'ROWS': 5
+            'COLS': 11
+            'SIZE': [8*8, 6*8]
+        'conditional': 'substitute_nan'
     'psych_experiments_Germany_1':
         'histogram':
             'enable': true
             'ROWS': 11
             'COLS': 11
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Germany_2':
         'histogram':
             'enable': true
             'ROWS': 11
             'COLS': 12
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Bulgaria':
         'histogram':
             'enable': true
             'ROWS': 10
             'COLS': 10
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Finland':
         'histogram':
             'enable': true
             'ROWS': 8
             'COLS': 10
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Italy':
         'histogram':
             'enable': true
             'ROWS': 13
             'COLS': 13
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Norway':
         'histogram':
             'enable': true
             'ROWS': 8
             'COLS': 10
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
     'psych_experiments_Turkey':
         'histogram':
             'enable': true
             'ROWS': 11
             'COLS': 10
             'SIZE': [8*8, 6*8]
-        'conditional': 'no_nan'
+        'conditional': 'substitute_nan'
