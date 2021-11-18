@@ -1,0 +1,86 @@
+# Choose the file format to load data from
+format: "csv"
+separator: ","
+# Data location
+data_dir: "/media/windowsC/SIN_Desktop/ENCHANT/wp3_datasets/cheetah_data_sharing"
+# Output directory kept out of git repo to save space
+out_dir: "../../cheetah/plots"
+# Handle each survey. Like conditional parsing, plot histogram summaries of the data etc
+surveys:
+    'global':
+        'histogram':
+            'enable': true
+            'ROWS': 10
+            'COLS': 10
+            'SIZE': [8*8, 6*8]
+            'padding': 1.0
+        'conditioning': 'substitute_nan'
+    'DEfridge':
+        'histogram':
+            'ROWS': 14
+    'DEthermostat':
+        'histogram':
+            'ROWS': 18
+    'ESfridge':
+        'histogram':
+            'ROWS': 13
+    'ESthermostat':
+        'histogram':
+            'ROWS': 17
+    'FRfridge':
+        'histogram':
+            'ROWS': 13
+    'FRthermostat':
+        'histogram':
+            'ROWS': 18
+    'ITfridge':
+        'histogram':
+            'ROWS': 12
+    'ITpolicy':
+        'histogram':
+            'ROWS': 12
+    'ITthermostat':
+        'histogram':
+            'ROWS': 16
+    'PLfridge':
+        'histogram':
+            'ROWS': 13
+    'PLheating':
+        'histogram':
+            'ROWS': 16
+    'PLpolicy':
+        'histogram':
+            'ROWS': 12
+    'PLthermostat':
+        'histogram':
+            'ROWS': 18
+    'ROfridge':
+        'histogram':
+            'ROWS': 13
+    'ROthermostat':
+        'histogram':
+            'ROWS': 18
+    'SEfridge':
+        'histogram':
+            'ROWS': 13
+    'SEheating':
+        'histogram':
+            'ROWS': 16
+    'SEpolicy':
+        'histogram':
+            'ROWS': 12
+    'SEthermostat':
+        'histogram':
+            'ROWS': 18
+    'UKfridge':
+        'histogram':
+            'ROWS': 18
+    'UKheating':
+        'histogram':
+            'ROWS': 17
+    'UKpolicy':
+        'histogram':
+            'ROWS': 12
+    'UKthermostat':
+        'histogram':
+            'ROWS': 18

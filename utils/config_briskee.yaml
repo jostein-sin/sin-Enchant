@@ -1,0 +1,17 @@
+# Choose the file format to load data from
+format: "csv"
+separator: ";"
+# Data location
+data_dir: "/media/windowsC/SIN_Desktop/ENCHANT/wp3_datasets/briskee"
+# Output directory kept out of git repo to save space
+out_dir: "../../briskee/plots"
+# Handle each survey. Like conditional parsing, plot histogram summaries of the data etc
+surveys:
+    'briskee_data_final':
+        'histogram':
+            'enable': true
+            'ROWS': 26
+            'COLS': 10
+            'SIZE': [8*8, 6*8]
+            'padding': 1.0
+        'conditioning': 'substitute_nan'
