@@ -7,7 +7,7 @@ data_dir: "/media/windowsC/SIN_Desktop/ENCHANT/wp3_datasets/briskee"
 out_dir: "../../briskee/plots"
 # Handle each survey. Like conditional parsing, plot histogram summaries of the data etc
 surveys:
-    'briskee_data_final':
+    'global':
         'histogram':
             'enable': true
             'ROWS': 26
@@ -15,3 +15,6 @@ surveys:
             'SIZE': [8*8, 6*8]
             'padding': 1.0
         'conditioning': 'substitute_nan'
+    'briskee_data_final':
+        'histogram':
+            'enable': true
