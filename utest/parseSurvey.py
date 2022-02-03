@@ -300,7 +300,7 @@ if __name__ == "__main__":
     
     try:
         survey_global_settings = args['surveys'].pop('global')
-    except "KeyError":
+    except KeyError:
         survey_global_settings = None
 
     warnings.filterwarnings( "ignore", module = "matplotlib\..*" )
